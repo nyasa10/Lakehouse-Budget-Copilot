@@ -25,11 +25,6 @@
 
 **All serverless. Zero external APIs. Production-ready.**
 
-## Dashboard 
-```sql
-SELECT CONCAT('$', FORMAT_NUMBER(SUM(total_saved), 0)) AS formatted_savings
-FROM budget_copilot.raw.agent_traces;
-
 ## Architecture
 
 ```mermaid
