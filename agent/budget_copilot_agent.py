@@ -1,4 +1,4 @@
-# budget_copilot_agent.py — 100% working in 14-day trial (no PySpark Connect issues)
+# budget_copilot_agent.py — 100% working in 14-day trial (no PySpark Connect issues) 
 from pyspark.sql.functions import *
 import json
 from datetime import datetime
