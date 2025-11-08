@@ -1,0 +1,316 @@
+df:pyspark.sql.connect.dataframe.DataFrame
+day:date
+owner:string
+sku_name:string
+dbus_used:double
+cost_usd:double
+ai_saved:double
+
+
+{
+  "total_saved": 1240.0,
+  "owners_optimized": 50,
+  "status": "complete",
+  "actions": [
+    {
+      "owner": "highspend0@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559702.000012"
+    },
+    {
+      "owner": "highspend1@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559705.000383"
+    },
+    {
+      "owner": "highspend3@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559706.000627"
+    },
+    {
+      "owner": "highspend4@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559707.000764"
+    },
+    {
+      "owner": "highspend2@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559709.000061"
+    },
+    {
+      "owner": "highspend5@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559710.000223"
+    },
+    {
+      "owner": "highspend11@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559713.000449"
+    },
+    {
+      "owner": "highspend8@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559714.000632"
+    },
+    {
+      "owner": "highspend7@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559715.000815"
+    },
+    {
+      "owner": "highspend6@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559719.000002"
+    },
+    {
+      "owner": "highspend9@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559720.000234"
+    },
+    {
+      "owner": "highspend10@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559721.000396"
+    },
+    {
+      "owner": "highspend13@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559722.000617"
+    },
+    {
+      "owner": "highspend16@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559725.000953"
+    },
+    {
+      "owner": "highspend12@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559727.000103"
+    },
+    {
+      "owner": "highspend14@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559728.000311"
+    },
+    {
+      "owner": "highspend15@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559731.000651"
+    },
+    {
+      "owner": "highspend17@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559732.000885"
+    },
+    {
+      "owner": "highspend19@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559734.000007"
+    },
+    {
+      "owner": "highspend22@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559735.000152"
+    },
+    {
+      "owner": "highspend21@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559736.000466"
+    },
+    {
+      "owner": "highspend23@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559739.000718"
+    },
+    {
+      "owner": "highspend20@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559740.000907"
+    },
+    {
+      "owner": "highspend18@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559742.000102"
+    },
+    {
+      "owner": "highspend24@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559745.000321"
+    },
+    {
+      "owner": "highspend28@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559746.000597"
+    },
+    {
+      "owner": "highspend25@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559747.000785"
+    },
+    {
+      "owner": "highspend29@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559749.000062"
+    },
+    {
+      "owner": "highspend26@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559750.000236"
+    },
+    {
+      "owner": "highspend27@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559753.000556"
+    },
+    {
+      "owner": "highspend34@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559754.000817"
+    },
+    {
+      "owner": "highspend31@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559755.000992"
+    },
+    {
+      "owner": "highspend33@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559759.000325"
+    },
+    {
+      "owner": "highspend35@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559760.000503"
+    },
+    {
+      "owner": "highspend32@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559761.000649"
+    },
+    {
+      "owner": "highspend30@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559762.000822"
+    },
+    {
+      "owner": "highspend40@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559764.000117"
+    },
+    {
+      "owner": "highspend36@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559767.000381"
+    },
+    {
+      "owner": "highspend37@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559768.000566"
+    },
+    {
+      "owner": "highspend39@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559769.000760"
+    },
+    {
+      "owner": "highspend41@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559773.000297"
+    },
+    {
+      "owner": "highspend38@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559774.000511"
+    },
+    {
+      "owner": "highspend49@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559775.000637"
+    },
+    {
+      "owner": "highspend48@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559776.000878"
+    },
+    {
+      "owner": "highspend45@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559778.000155"
+    },
+    {
+      "owner": "highspend43@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559781.000596"
+    },
+    {
+      "owner": "highspend46@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559782.000888"
+    },
+    {
+      "owner": "highspend42@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559784.000450"
+    },
+    {
+      "owner": "highspend44@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559785.000614"
+    },
+    {
+      "owner": "highspend47@example.com",
+      "action": "scaled",
+      "savings": 24.8,
+      "slack_ts": "1762559788.000841"
+    }
+  ]
+}
