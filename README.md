@@ -20,7 +20,7 @@
 | **Governance** | **Unity Catalog Functions** | 3 reusable tools: `predict_cost`, `scale_cluster`, `slack_alert` |
 | **Orchestration** | **Databricks Jobs** | Runs agent logic daily (replaces Agent Bricks) |
 | **Storage & Tracing** | **Delta Lake** | `agent_traces` table = MLflow-style audit log |
-| **Visualization** | **Databricks SQL Dashboards** | Live gauge: **$1,240 saved** |
+| **Visualization** | **Databricks SQL Dashboard** | Live gauge: **$1,240 saved** |
 | **Mocking** | **Python UDFs** | Trial-safe `scale_cluster` & `slack_alert` with real API JSON schema |
 
 **All serverless. Zero external APIs. Production-ready.**
