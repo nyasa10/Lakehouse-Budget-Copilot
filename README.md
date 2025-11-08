@@ -1,7 +1,5 @@
 # Databricks-Budget-Copilot
 
-## Budget Copilot – $1,240 Saved on Databricks Trial
-
 ## Project Overview
 
 **Autonomous cost agent** that monitors real-time Databricks spend, predicts 30-day burn per user, and auto-scales clusters via reusable tools — saving **$1,240** across 50 owners. Ingests `system.billing.usage` via **DLT**, builds a gold cost table, and runs a **job-based agent** that predicts overspend, scales clusters, and logs alerts — all with **full governance** in Delta Lake.
@@ -11,8 +9,6 @@
 - **Action**: Scales clusters + sends Slack-style alerts  
 - **Output**: **$1,240 saved** across 50 users  
 - **Governance**: Full audit trail in Delta (`agent_traces`)
-
-> **Built under trial constraints** — no beta features, no billing, **100% reproducible**.
 
 ---
 
