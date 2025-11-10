@@ -21,6 +21,7 @@
 | **Storage & Tracing** | **Delta Lake** | `agent_traces` table = MLflow-style audit log |
 | **Visualization** | **Databricks SQL Dashboard** | Live gauge: **$1,240 saved** |
 | **Mocking** | **Python UDFs** | Trial-safe `scale_cluster` & `slack_alert` with real API JSON schema |
+| **Runtime** | **Serverless Compute** |  **Zero infra setup; free-tier compatible** |
 
 **All serverless. Zero external APIs. Production-ready.**
 
