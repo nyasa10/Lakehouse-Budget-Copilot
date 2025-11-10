@@ -41,13 +41,15 @@ graph TD
 ```mermaid
 
 flowchart TD
-    A["system.billing.usage (or mock DLT input)"] --> B["DLT Pipeline: cost_gold"]
+    A["system.billing.usage (or mock input)"] --> B["DLT Pipeline: cost_gold"]
     B --> C["Unity Catalog Functions"]
-    C --> C1["predict_cost(owner)"]
-    C --> C2["scale_cluster(cluster_id)"]
-    C --> C3["slack_alert(message)"]
-    C --> D["FinOps Agent Job (Python Automation)"]
-    D --> E["agent_traces Delta Table (full JSON logs)"]
-    E --> F["SQL Dashboard (AI Savings & Spend)"]
-    D --> G["Slack Mock Queue (ts timestamps)"]
-
+    C --> C1["predict_cost()"]
+    C --> C2["scale_cluster()"]
+    C --> C3["slack_alert()"]
+    %% Agent calls all tools
+    C1 --> D["FinOps Agent Job (Python Automation)"]
+    C2 --> D
+    C3 --> D
+    D --> E["agent_traces Delta Table"]
+    E --> F["SQL Dashboard (AI Savings)"]
+    D --> G["Slack Mock Queue (timestamps)"]
